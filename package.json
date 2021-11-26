@@ -19,9 +19,9 @@
 		"url": "https://github.com/orlovedev/template/issues"
 	},
 	"scripts": {
-		"task11": "ts-node src/task11/index.ts",
-		"task12": "ts-node src/task12/index.ts",
-		"nodemon":  "nodemon -e ts  --exec \"npm run build\"",
+		"task1": "ts-node src/task11/index.ts",
+		"task2": "ts-node src/task12/index.ts",
+		"nodemon": "nodemon -e ts  --exec \"npm run build\"",
 		"build": "tsc",
 		"test": "ava",
 		"test:cover": "nyc ava",
@@ -122,5 +122,8 @@
 		"extends": [
 			"./node_modules/commitlint-config-gitmoji"
 		]
+	},
+	"dependencies": {
+		"csvtojson": "^2.0.10"
 	}
 }
